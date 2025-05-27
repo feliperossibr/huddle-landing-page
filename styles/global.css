@@ -1,0 +1,13 @@
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --violet: #674baf;
+  --soft-magenta: #e882e8;
+
+  --ff-head: "Poppins", sans-serif;
+  --ff-body: "Open Sans", sans-serif;
+}
