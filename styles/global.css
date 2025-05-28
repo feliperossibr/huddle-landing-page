@@ -85,3 +85,10 @@ body, html {
     }
   }
 }
+
+.midias {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
