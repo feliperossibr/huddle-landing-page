@@ -72,6 +72,7 @@ body, html {
 
     padding: 1rem;
     border-radius: 2rem;
+    margin-bottom: 5rem;
 
     width: 15rem;
     height: auto;
@@ -90,5 +91,14 @@ body, html {
   display: flex;
   align-items: center;
   gap: 1rem;
-  margin-bottom: 2rem;
+}
+
+@media screen and (width >= 1280px) {
+  .card-wrapper {
+    flex-direction: row;
+    
+    & > .text-area {
+      gap: 2rem;
+    }
+  }
 }
