@@ -63,5 +63,25 @@ body, html {
 
     margin-bottom: 2rem;
   }
-  
+
+  & > .btn {
+    color: var(--violet);
+    background-color: #ffffff;
+    cursor: pointer;
+    font-size: 1rem;
+
+    padding: 1rem;
+    border-radius: 2rem;
+
+    width: 15rem;
+    height: auto;
+
+    border: none;
+    transition: background .3s ;
+    
+    &:hover {
+      background-color: var(--soft-magenta);
+      color: #ffffff;
+    }
+  }
 }
